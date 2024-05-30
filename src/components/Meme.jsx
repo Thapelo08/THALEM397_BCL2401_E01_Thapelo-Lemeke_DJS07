@@ -1,6 +1,17 @@
 import React from "react"
+import memesData from "../memesData.js"
+
 
 export default function Meme() {
+
+    function getMemeImgage() {
+       const memesArray = memesData.data.memes
+       const randomNumber = Math.floor(Math.random() * memesArray.length)
+       const url = memesArray[randomNumber].url
+       console.log(url)
+
+    }
+
     return (
         <main>
             <form className="form">
