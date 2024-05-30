@@ -1,5 +1,7 @@
-
-function App() {
+import React from "react"
+import Header from "./components/header"
+import Meme from "./components/Meme"
+export default function App() {
 
   return (
     <>
@@ -8,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+
